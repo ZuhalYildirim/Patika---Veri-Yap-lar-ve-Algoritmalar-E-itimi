@@ -1,0 +1,55 @@
+Proje 3
+[7, 5, 1, 8, 3, 6, 0, 9, 4, 2] dizisinin Binary-Search-Tree aşamalarını yazınız.
+7 sayısı root olarak alınırsa, sırasıyla root'dan büyük olanlar sağ tarafa küçük olanlar ise sol tarafa eklenecektir. 
+1- 7 sayısı 5'ten büyük mü? Hayır bundan dolayı soluna yerleştir. 
+  7
+ /
+5
+2- 7 sayısı 1'den büyük mü? Hayır, 5'den büyük mü? Hayır bundan dolayı soluna yerleştir.
+        7
+       /
+      5
+     /
+    1
+ 3- 7 sayısı 8'den büyük mü? Evet bundan dolayı sağına yerleştir.
+        7
+       / \
+      5   8
+     /
+    1
+ 4- 7 sayısı 3'ten büyük mü? Hayır soldan devam et. 5'den büyük mü? Hayır. 1'den büyük mü? Evet bundan dolayı sağına yerleştir.
+        7
+       / \
+      5   8
+     / 
+    1
+     \
+      3
+ 5- 7 sayısı 6'dan büyük mü? Hayır soldan devam et. 5'den büyük mü? Evet bundan dolayı sağına yerleştir.
+        7
+       / \
+      5   8
+     / \
+    1   6
+     \
+      3
+  5- 7 sayısı 0'dan büyük mü? Hayır soldan devam et. 5'den büyük mü? Hayır soldan devam et. 1'den büyük mü? Hayır bundan dolayı soluna yerleştir.
+        7
+       / \
+      5   8
+     / \
+    1   6
+   / \
+  0    3
+  
+ İşlem adımları büyün elemanlar için tekrarlanınca en son adımda ortaya çıkan örüntü şu ekilde olacaktır. 
+                      7   
+                    /   \
+                   5      8
+                  / \      \
+                 1   6      9
+                / \
+                0  3
+                  /  \
+                 2    4
+ 
