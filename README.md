@@ -1,1 +1,1 @@
-# Patika---Veri-Yap-lar-ve-Algoritmalar-E-itimi
+# Patika_Veri_Yapılari_ve_Algoritmalari_Egitimi
