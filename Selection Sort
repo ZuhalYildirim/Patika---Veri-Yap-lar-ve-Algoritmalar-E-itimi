@@ -24,7 +24,7 @@ Best case: Aradığımız sayının dizinin en başında olması.
 İnsertion sort sıralaması ilk olarak bütün elemanların üzerinde gezer ve en küçük olanı tespit eder ve ilk elemanın yerini en küçük ile değiştirir. 
 Sonraki adımda kalan diğer elemanlar üzerinde gezinerek bu işlemi uygular bundan dolayı her basamakta 1 eksiği kadar eleman üzerinde işlem yapacaktır.
 n+(n-1)+(n-2)+...+1= (n*(n-1))/2
-(n^2-n)/2 katsayısal olarak bakıldığında n^2 baskın olmasından dolayı big-O gösteriminde bu kısım baz alınır ve O(n²)'olur. 
+(n^2-n)/2 kat sayısal olarak bakıldığında n^2 baskın olmasından dolayı big-O gösteriminde bu kısım baz alınır ve O(n²)'olur. 
 
 3- Avarage case çünkü 18 sayısı dizinin ortalarına denk gelmektedir. 
 
