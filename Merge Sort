@@ -1,0 +1,20 @@
+[16,21,11,8,12,22] -> Merge Sort
+
+Yukarıdaki dizinin sort türüne göre aşamalarını yazınız.
+Big-O gösterimini yazınız.
+
+1- Merge Sort 
+         [16,21,11,8,12,22]
+      [16,21,11]    [8,12,22]
+   [16]  [21,11]    [8]  [12,22]
+[16]  [21]  [11]    [8]  [12]  [22]
+   [16]  [11,21]    [8]  [12,22]
+      [11,16,21]    [8,12,22]
+         [8,11,12,16,21,22]
+         
+Big-O gösterimi. 
+Diziyi yukarıdan aşağıya doğru sürekli ikiye bölüyoruz bundan dolayı 2x=n denkleminden x= logn kere işlem yaparız.
+Yapılan her ayrıştırma işlemi sonrasında birleştirme yaparken grupların elemanları sıralarına göre içlerinde kıyaslanarak küçükten büyüğe doğru sıralanır yani 
+algoritma ilk olarak 16 mı daha büyük 12 mi diye bakar sonrada da 16 mı 21 mi bu sayede 2 adımda sıralamayı bulur. 
+Matematiksel olarak formülıze edilirse n-1 işlem sonucunda satırlarda ki sayıların sıralamaları bulunur. Satır ve sütunlarda ki işlem sayılarının dominant
+olanları alınıp birbiriyle çarpılması sonucunda Big-O = (n*logn)
